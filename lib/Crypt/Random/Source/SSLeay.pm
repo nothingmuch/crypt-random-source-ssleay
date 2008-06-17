@@ -7,6 +7,8 @@ extends qw(Crypt::Random::Source::Base);
 
 use Net::SSLeay ();
 
+our $VERSION = "0.01";
+
 sub rank { 200 }
 
 sub available { 1 }
