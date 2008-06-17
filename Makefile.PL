@@ -5,8 +5,8 @@ use strict;
 use ExtUtils::MakeMaker;
 
 WriteMakefile(
-	NAME         => '',
-	VERSION_FROM => '',
+	NAME         => 'Crypt::Random::Source::SSLeay',
+	VERSION_FROM => 'lib/Crypt/Random/Source/SSLeay.pm',
 	INSTALLDIRS  => 'site',
 	SIGN         => 1,
 	PL_FILES     => { },
