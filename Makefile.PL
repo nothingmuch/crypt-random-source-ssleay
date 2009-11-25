@@ -13,8 +13,8 @@ WriteMakefile(
 	PREREQ_PM    => {
 		'Test::use::ok' => 0,
 		'Net::SSLeay' => 0,
-		'Crypt::Random::Source' => 0,
-		'Mouse' => "0.04",
+		'Crypt::Random::Source' => 0.05,
+		'Moose' => 0.92,
 	},
 );
 
