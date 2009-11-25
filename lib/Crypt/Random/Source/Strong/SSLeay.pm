@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 
 package Crypt::Random::Source::Strong::SSLeay;
-use Squirrel;
+use Moose;
 
 use Net::SSLeay ();
 

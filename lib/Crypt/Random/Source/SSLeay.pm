@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 
 package Crypt::Random::Source::SSLeay;
-use Squirrel;
+use Moose;
 
 extends qw(Crypt::Random::Source::Base);
 
